@@ -3,6 +3,7 @@
 * {
     margin: 0;
     font-family: 'Roboto', sans-serif;
+    text-decoration: none;
 }
 
 .section_1 {
@@ -26,12 +27,13 @@
     flex-direction: row;
 }
 
-.links>p {
+.links>a {
     font-family: 'Roboto';
     color: #E5E7EB;
     margin-left: 25px;
     font-weight: 400;
     font-size: 18px;
+    text-decoration: none;
 }
 
 .navbar>.header {
@@ -73,15 +75,20 @@
 /* description web */
 /* description button */
 
-.button_description {
-    border: none;
+.button_description>a>p {
+    display: flex;
+    border: solid 2px;
     border-radius: 7px;
     background-color: #3882F6;
     width: 120px;
-    height: 30px;
-    margin: 10px 0px;
+    height: 35px;
     font-weight: 400;
     color: #E5E7EB;
+    margin-top: 10px;
+    align-items: center;
+    justify-content: center;
+    font-weight: 600;
+    font-size: 16px;
 }
 
 /* description button */
@@ -130,7 +137,7 @@
     margin-top: 20px;
 }
 
-.section_2_img>p {
+.section_2_img_1 {
     margin: 25px;
     margin-bottom: 0;
     padding: 65px 70px;
@@ -229,7 +236,8 @@
     align-items: center;
 }
 
-.tarjet_button>button {
+.tarjet_button>a>p {
+    display: flex;
     border: solid 2px;
     border-radius: 7px;
     background-color: #3882F6;
@@ -238,9 +246,18 @@
     font-weight: 400;
     color: #E5E7EB;
     margin-left: 100px;
-    align-self: center;
+    align-items: center;
+    justify-content: center;
     font-weight: 600;
     font-size: 16px;
+}
+
+.tarjet_button>a>p:hover {
+    background-color: #1959c2 ;
+}
+
+.button_description>a>p:hover {
+    background-color: #1959c2 ;
 }
 /* section 4 */
 /* footer */
