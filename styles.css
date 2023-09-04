@@ -77,7 +77,6 @@
 
 .button_description>a>p {
     display: flex;
-    border: solid 2px;
     border-radius: 7px;
     background-color: #3882F6;
     width: 120px;
