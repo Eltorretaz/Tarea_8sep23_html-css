@@ -135,36 +135,56 @@
     align-items: center;
 }
 
-.section_2_img_1>img {
+.section_2_img_1 {
     margin: 25px 30px;
     margin-bottom: 0;
     border: solid 3.5px #3882F6;
     border-radius: 15px;
-    color: white;
+    width: 150px;
+    height: 150px;
+    background-image: url("assets/img_world.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
 }
 
-.section_2_img_2>img {
+.section_2_img_2 {
     margin: 25px 30px;
     margin-bottom: 0;
     border: solid 3.5px #3882F6;
     border-radius: 15px;
-    color: white;
+    width: 150px;
+    height: 150px;
+    background-image: url("assets/img_iceborn_2.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
 }
 
-.section_2_img_3>img {
+.section_2_img_3 {
     margin: 25px 30px;
     margin-bottom: 0;
     border: solid 3.5px #3882F6;
     border-radius: 15px;
-    color: white;
+    width: 150px;
+    height: 150px;
+    background-image: url("assets/img_rise_2.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
 }
 
-.section_2_img_4>img {
+.section_2_img_4 {
     margin: 25px 30px;
     margin-bottom: 0;
     border: solid 3.5px #3882F6;
     border-radius: 15px;
-    color: white;
+    width: 150px;
+    height: 150px;
+    background-image: url("assets/img_sunbreak.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
 }
 
 /* header img */
