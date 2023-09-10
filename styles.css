@@ -412,7 +412,7 @@ body {
 /* header section 2 */
 
 .section_2 {
-    height: 1000px;
+    height: 850px;
 }
 
 /* section 2 */
@@ -422,7 +422,6 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin: 20px auto;
     width: 100%;
 }
 
@@ -430,13 +429,15 @@ body {
     display: flex;
     flex-direction: row;
     width: 100%;
+    justify-content: center;
 }
 
 .img_2 {
     display: flex;
     flex-direction: row;
-    margin-top: 50px;
+    margin-top: 10px;
     width: 100%;
+    justify-content: center;
 }
 
 .section_2_img_1 {
@@ -517,15 +518,15 @@ body {
 }
 
 .tarjet_button>a>p {
-    width: 100%;
-    height: 90%;
+    height: 40px;
     margin: 0;
-    font-size: 9px;
+    font-size: 15px;
+    margin-top: 10px;
 }
 /* section 4 */
 
 .footer_text {
-    height: 30px;
+    height: 80px;
 }
 
 }
